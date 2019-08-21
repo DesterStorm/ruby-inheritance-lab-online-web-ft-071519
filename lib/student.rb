@@ -4,4 +4,8 @@ class Student < User
     knowledge = []
   end
   
+  def new 
+    student = Student.new 
+  end
+  
 end
