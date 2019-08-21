@@ -5,6 +5,6 @@ class Student < User
   end
   
   def learn(knowledge) 
-    @knowledge >> knowledge
+    @knowledge.push(knowledge)
   end
 end
